@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <div class = "profile_text">
+        <div class = "imgBox">
+            <img src="face.jpg">
+        </div>
+        <h2>Sergey Chekasheu<br><span>Web developer</span></h2>
+
+    </div>
+        <div class="contact">
+            <h3 class="title">Contact info</h3>
+            <ul>
+                <li>
+                    <span class = "icon"><i class="material-icons">phone_android</i></span>
+                    <span class = "note">+375292064098</span>
+                </li>
+                <li>
+                    <span class = "icon"><i class="material-icons">email</i></span>
+                    <span class = "note">checko25@mail.ru</span>
+                </li>
+                <li>
+                    <span class = "icon"><i class="material-icons">place</i></span>
+                    <span class = "note">Brest, Belarus</span>
+                </li>
+            </ul>
+        </div>
+        <div class="education">
+            <h3 class="title">Education</h3>
+            <ul>
+                <li>
+                    <span class = "icon"><i class="material-icons">date_range</i></span>
+                    <span class = "note">2011-2016</span>
+                </li>
+                <li>
+                    <span class = "icon"><i class="material-icons">school</i></span>
+                    <span class = "note">Polessky State University</span>
+                </li>
+                <li>
+                    <span class = "icon"><i class="material-icons">science</i></span>
+                    <span class = "note">Microbiology</span>
+                </li>
+            </ul>
+        </div>
+        <div class="lang">
+
+            <h3 class="title">Languages</h3>
+            <div class = lang_name style="width: 35%">
+               <ul>
+                   <li>
+                       <span class = "note">Russian</span>
+                   </li>
+                   <li>
+                       <span class = "note">English</span>
+                   </li>
+                   <li>
+                       <span class = "note">Germany</span>
+                   </li>
+               </ul>
+            </div>
+            <div class = lang_rating style="width: 60%">
+                <ul>
+                    <li>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                    </li>
+                    <li>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                    </li>
+                    <li>
+                        <span class = "star"><i class="material-icons">star</i></span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+</div>
+    <div class="right">
+        <div class="about">
+            <span class = right_note>About me</span>
+            <div class = "content">
+                <p>I'm a "switcher". I have an economic education and I was an individual entrepreneur.
+                    Now I'm studying and improving my skills in web-development.
+                    Some day I wish to be a full-stack JavaScript developer,
+                    but currently I'm discovering the frontend first.
+                    A little more information you can see in my video.</p>
+            </div>
+        </div>
+        <div class="about">
+            <span class = right_note>IT WAY
+            </span>
+            <nav id="slow_nav">
+                <ul>
+                    <li>
+                        <p>See more</p>
+                        <ul>
+                            <li class="crs" ><p >Skills</p></li>
+                            <li class="skl"><p>Projects</p></li>
+                            <li class="exp"><p>Code Example</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class = "change_notice1">
+                <p> My skills</p>
+                <span>HTML </span><span>CSS</span> <span>Javascript</span> <span>PHP </span>
+                <span>NODE</span> <span>Java</span> <span>Photoshop</span> <span>SQL</span>
+            </div>
+            <div class = "change_notice2">
+                <p>this section is in progress and will be replenished as acquiring skills by author this cv .</p>
+            </div>
+            <div class = "change_notice3">
+                <pre><code>
+    function vowelChange(str,vow) {
+        let arr2 = str.split('');
+        for (let i = 0; i < arr2.length; i++) {
+             if (isVowel(str[i])) {
+                 arr2.splice([i],1,vow);
+              }
+         }
+                let NewVowels =  arr2.join('');
+                    return NewVowels;
+          }
+                    function isVowel(char) {
+                 return 'aeiou'.includes(char);
+                    }
+vowelChange("hannah hannah bo-bannah banana fanna fo-fannah fee,
+                    fy, mo-mannah. hannah!",'i');
+vowelChange ('adira wants to go to the park', 'o');
+                </code></pre>
+            </div>
+        </div>
+
+        <div class="about">
+            <span class = right_note>Hobbies</span>
+            <div class = "hobby">
+                <span class = "hobby_icon"><i class="material-icons">library_books</i></span>
+                <span class = "hobby_text">Reading</span>
+                <span class = "hobby_icon"><i class="material-icons">directions_run</i></span>
+                <span class = "hobby_text">Running</span>
+                <span class = "hobby_icon"><i class="material-icons">sports_soccer</i></span>
+                <span class = "hobby_text">Football</span>
+                <br>
+                <span class = "hobby_icon"><i class="material-icons">travel_explore</i></span>
+                <span class = "hobby_text">Travels</span>
+                <span class = "hobby_icon"><i class="material-icons">outdoor_grill</i></span>
+                <span class = "hobby_text">Cooking</span>
+                <span class = "hobby_icon"><i class="material-icons">cable</i></span>
+                <span class = "hobby_text">Electronic</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+<a href="https://github.com/checko25" class="git_pic">checko25</a>
+    <span>2021</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
