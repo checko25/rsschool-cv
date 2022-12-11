@@ -1,3 +1,3 @@
 
-https://checko25.github.io/rsschool-cv/blob/rsschool-cv-html
+https://checko25.github.io/rsschool-cv/
 
