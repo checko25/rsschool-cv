@@ -13,7 +13,7 @@ Education
 2011-2016 
 :   **Polessky state university
 
-    *Specialty - microbiology
+:    **Speciality - microbiology
 
 Experience
 ----------
